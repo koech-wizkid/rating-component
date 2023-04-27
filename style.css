@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(26, 25, 25);
+    
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+p {
+    color:rgb(124, 126, 126);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icon {
+    color: rgb(245, 166, 20);
+    
+}
+.container{
+
+    background-color: rgba(45, 54, 71, 0.904);
+    width:28vw;
+    height:45vh;
+    padding: 20px;
+    margin: auto;
+    transform: translate(0%, 50%);
+    border-radius:22px;
+
+    
+    
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;
+    margin-left: 20px;
+    background-color: rgba(59, 68, 82, 0.904) ;
+    color:rgb(136, 138, 139);
+    
+}
+.submit {
+    margin:30px;
+    font-size: large;
+    padding:2%;
+    width: 80%;
+    border:none;
+    border-radius:30px;
+    color:white;
+    background-color:orange;
+    
+    
+}
+
+.submit:hover{
+    background-color: azure;
+    color: orange;
+}
+.input{
+    color:orange;
+    background-color:rgba(59, 68, 82, 0.904);
+}
+
+.modal{
+    background-color: rgba(45, 54, 71, 0.904);
+    text-align: center;
+    width:30vw;
+    height:49vh;
+    transform:translate(112%, -56%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.8s;
+    border-radius:20px;
+}
+.modal h2 {
+    color: wheat;
+}
+
+.open-modal{
+    visibility: visible;
+    transform:translate(112%, -56%) scale(1);
+
+}
+.button-close-modal{
+    display:block;
+    margin-left:auto;
+    font-weight: bold;
+    
+}
