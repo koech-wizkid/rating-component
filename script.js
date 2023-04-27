@@ -10,5 +10,6 @@ function closePopup(){
 function mouseOver() {
     document.getElementById("mybtn").style.backgroundColor= "orange";
   }
-
-  
+  function mouseOut() {
+    document.getElementById("mybtn").style.backgroundColor= "rgba(45, 54, 71, 0.904)";
+  }
